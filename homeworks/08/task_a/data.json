@@ -1,0 +1,7 @@
+{
+  "item": {
+    "foo": 1,
+    "bar": null
+  },
+  "string": "foobar"
+}
