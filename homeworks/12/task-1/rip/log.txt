@@ -1,0 +1,327 @@
+host: 127.0.0.2, iteration: 1
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 0
+dest: 127.0.0.1, next_hop: 127.0.0.1, metric: 1
+
+
+host: 127.0.0.3, iteration: 1
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+
+
+host: 127.0.0.5, iteration: 1
+dest: 127.0.0.5, next_hop: 127.0.0.5, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+
+
+host: 127.0.0.4, iteration: 1
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 0
+dest: 127.0.0.5, next_hop: 127.0.0.5, metric: 1
+
+
+host: 127.0.0.6, iteration: 1
+dest: 127.0.0.6, next_hop: 127.0.0.6, metric: 0
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.4, next_hop: 127.0.0.3, metric: 2
+
+
+host: 127.0.0.4, iteration: 2
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 0
+dest: 127.0.0.5, next_hop: 127.0.0.5, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+
+
+host: 127.0.0.2, iteration: 2
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 0
+dest: 127.0.0.1, next_hop: 127.0.0.1, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.4, next_hop: 127.0.0.3, metric: 2
+
+
+host: 127.0.0.1, iteration: 1
+dest: 127.0.0.1, next_hop: 127.0.0.1, metric: 0
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.2, metric: 2
+dest: 127.0.0.4, next_hop: 127.0.0.2, metric: 3
+
+
+host: 127.0.0.3, iteration: 2
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 1
+dest: 127.0.0.1, next_hop: 127.0.0.2, metric: 2
+
+
+host: 127.0.0.3, iteration: 3
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 1
+dest: 127.0.0.1, next_hop: 127.0.0.2, metric: 2
+dest: 127.0.0.6, next_hop: 127.0.0.6, metric: 1
+
+
+host: 127.0.0.3, iteration: 4
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 1
+dest: 127.0.0.1, next_hop: 127.0.0.2, metric: 2
+dest: 127.0.0.6, next_hop: 127.0.0.6, metric: 1
+
+
+host: 127.0.0.1, iteration: 2
+dest: 127.0.0.1, next_hop: 127.0.0.1, metric: 0
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.2, metric: 2
+dest: 127.0.0.4, next_hop: 127.0.0.2, metric: 3
+
+
+host: 127.0.0.2, iteration: 3
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 0
+dest: 127.0.0.1, next_hop: 127.0.0.1, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.4, next_hop: 127.0.0.3, metric: 2
+
+
+host: 127.0.0.6, iteration: 2
+dest: 127.0.0.6, next_hop: 127.0.0.6, metric: 0
+host: 127.0.0.2, iteration: 4
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 0
+dest: 127.0.0.1, next_hop: 127.0.0.1, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.4, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.6, next_hop: 127.0.0.3, metric: 2
+
+
+host: 127.0.0.4, iteration: 3
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 0
+dest: 127.0.0.5, next_hop: 127.0.0.5, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.1, next_hop: 127.0.0.3, metric: 3
+dest: 127.0.0.6, next_hop: 127.0.0.3, metric: 2
+
+
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.4, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.2, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.1, next_hop: 127.0.0.3, metric: 3
+
+
+host: 127.0.0.3, iteration: 5
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 1
+dest: 127.0.0.1, next_hop: 127.0.0.2, metric: 2
+dest: 127.0.0.6, next_hop: 127.0.0.6, metric: 1
+dest: 127.0.0.5, next_hop: 127.0.0.4, metric: 2
+
+
+host: 127.0.0.5, iteration: 2
+dest: 127.0.0.5, next_hop: 127.0.0.5, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.4, metric: 2
+dest: 127.0.0.2, next_hop: 127.0.0.4, metric: 3
+dest: 127.0.0.1, next_hop: 127.0.0.4, metric: 4
+dest: 127.0.0.6, next_hop: 127.0.0.4, metric: 3
+
+
+host: 127.0.0.3, iteration: 6
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 1
+dest: 127.0.0.1, next_hop: 127.0.0.2, metric: 2
+dest: 127.0.0.6, next_hop: 127.0.0.6, metric: 1
+dest: 127.0.0.5, next_hop: 127.0.0.4, metric: 2
+
+
+host: 127.0.0.4, iteration: 4
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 0
+dest: 127.0.0.5, next_hop: 127.0.0.5, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.1, next_hop: 127.0.0.3, metric: 3
+dest: 127.0.0.6, next_hop: 127.0.0.3, metric: 2
+
+
+host: 127.0.0.1, iteration: 3
+dest: 127.0.0.1, next_hop: 127.0.0.1, metric: 0
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.2, metric: 2
+dest: 127.0.0.4, next_hop: 127.0.0.2, metric: 3
+dest: 127.0.0.6, next_hop: 127.0.0.2, metric: 3
+
+
+host: 127.0.0.3, iteration: 7
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 1
+dest: 127.0.0.1, next_hop: 127.0.0.2, metric: 2
+dest: 127.0.0.6, next_hop: 127.0.0.6, metric: 1
+dest: 127.0.0.5, next_hop: 127.0.0.4, metric: 2
+
+
+host: 127.0.0.3, iteration: 8
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 1
+dest: 127.0.0.1, next_hop: 127.0.0.2, metric: 2
+dest: 127.0.0.6, next_hop: 127.0.0.6, metric: 1
+dest: 127.0.0.5, next_hop: 127.0.0.4, metric: 2
+
+
+host: 127.0.0.5, iteration: 3
+dest: 127.0.0.5, next_hop: 127.0.0.5, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.4, metric: 2
+dest: 127.0.0.2, next_hop: 127.0.0.4, metric: 3
+dest: 127.0.0.1, next_hop: 127.0.0.4, metric: 4
+dest: 127.0.0.6, next_hop: 127.0.0.4, metric: 3
+
+
+host: 127.0.0.2, iteration: 5
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 0
+dest: 127.0.0.1, next_hop: 127.0.0.1, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.4, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.6, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.5, next_hop: 127.0.0.3, metric: 3
+
+
+host: 127.0.0.4, iteration: 5
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 0
+dest: 127.0.0.5, next_hop: 127.0.0.5, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.1, next_hop: 127.0.0.3, metric: 3
+dest: 127.0.0.6, next_hop: 127.0.0.3, metric: 2
+
+
+host: 127.0.0.6, iteration: 3
+dest: 127.0.0.6, next_hop: 127.0.0.6, metric: 0
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.4, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.2, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.1, next_hop: 127.0.0.3, metric: 3
+dest: 127.0.0.5, next_hop: 127.0.0.3, metric: 3
+
+
+host: 127.0.0.3, iteration: 9
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 1
+dest: 127.0.0.1, next_hop: 127.0.0.2, metric: 2
+dest: 127.0.0.6, next_hop: 127.0.0.6, metric: 1
+dest: 127.0.0.5, next_hop: 127.0.0.4, metric: 2
+
+
+host: 127.0.0.4, iteration: 6
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 0
+dest: 127.0.0.5, next_hop: 127.0.0.5, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.1, next_hop: 127.0.0.3, metric: 3
+dest: 127.0.0.6, next_hop: 127.0.0.3, metric: 2
+
+
+host: 127.0.0.2, iteration: 6
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 0
+dest: 127.0.0.1, next_hop: 127.0.0.1, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.4, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.6, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.5, next_hop: 127.0.0.3, metric: 3
+
+
+host: 127.0.0.3, iteration: 10
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 1
+dest: 127.0.0.1, next_hop: 127.0.0.2, metric: 2
+dest: 127.0.0.6, next_hop: 127.0.0.6, metric: 1
+dest: 127.0.0.5, next_hop: 127.0.0.4, metric: 2
+
+
+host: 127.0.0.5, iteration: 4
+dest: 127.0.0.5, next_hop: 127.0.0.5, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.4, metric: 2
+dest: 127.0.0.2, next_hop: 127.0.0.4, metric: 3
+dest: 127.0.0.1, next_hop: 127.0.0.4, metric: 4
+dest: 127.0.0.6, next_hop: 127.0.0.4, metric: 3
+
+
+host: 127.0.0.6, iteration: 4
+dest: 127.0.0.6, next_hop: 127.0.0.6, metric: 0
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.4, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.2, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.1, next_hop: 127.0.0.3, metric: 3
+dest: 127.0.0.5, next_hop: 127.0.0.3, metric: 3
+
+
+host: 127.0.0.4, iteration: 7
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 0
+dest: 127.0.0.5, next_hop: 127.0.0.5, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.1, next_hop: 127.0.0.3, metric: 3
+dest: 127.0.0.6, next_hop: 127.0.0.3, metric: 2
+
+
+host: 127.0.0.5, iteration: 5
+dest: 127.0.0.5, next_hop: 127.0.0.5, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.4, metric: 2
+dest: 127.0.0.2, next_hop: 127.0.0.4, metric: 3
+dest: 127.0.0.1, next_hop: 127.0.0.4, metric: 4
+dest: 127.0.0.6, next_hop: 127.0.0.4, metric: 3
+
+
+--- FINAL STATE
+host 127.0.0.1
+dest: 127.0.0.1, next_hop: 127.0.0.1, metric: 0
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.2, metric: 2
+dest: 127.0.0.4, next_hop: 127.0.0.2, metric: 3
+dest: 127.0.0.6, next_hop: 127.0.0.2, metric: 3
+
+host 127.0.0.2
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 0
+dest: 127.0.0.1, next_hop: 127.0.0.1, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.4, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.6, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.5, next_hop: 127.0.0.3, metric: 3
+
+host 127.0.0.3
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.2, metric: 1
+dest: 127.0.0.1, next_hop: 127.0.0.2, metric: 2
+dest: 127.0.0.6, next_hop: 127.0.0.6, metric: 1
+dest: 127.0.0.5, next_hop: 127.0.0.4, metric: 2
+
+host 127.0.0.4
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 0
+dest: 127.0.0.5, next_hop: 127.0.0.5, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.2, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.1, next_hop: 127.0.0.3, metric: 3
+dest: 127.0.0.6, next_hop: 127.0.0.3, metric: 2
+
+host 127.0.0.5
+dest: 127.0.0.5, next_hop: 127.0.0.5, metric: 0
+dest: 127.0.0.4, next_hop: 127.0.0.4, metric: 1
+dest: 127.0.0.3, next_hop: 127.0.0.4, metric: 2
+dest: 127.0.0.2, next_hop: 127.0.0.4, metric: 3
+dest: 127.0.0.1, next_hop: 127.0.0.4, metric: 4
+dest: 127.0.0.6, next_hop: 127.0.0.4, metric: 3
+
+host 127.0.0.6
+dest: 127.0.0.6, next_hop: 127.0.0.6, metric: 0
+dest: 127.0.0.3, next_hop: 127.0.0.3, metric: 1
+dest: 127.0.0.4, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.2, next_hop: 127.0.0.3, metric: 2
+dest: 127.0.0.1, next_hop: 127.0.0.3, metric: 3
+dest: 127.0.0.5, next_hop: 127.0.0.3, metric: 3
+
+OK
